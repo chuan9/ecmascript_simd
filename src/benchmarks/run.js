@@ -27,8 +27,16 @@ load ('sinx4.js');
 load ('memset.js');
 load ('memcpy.js');
 */
-load ('averageFloat64x2Shuffle.js');
-load ('inverseColumn-float64x2.js');
+//load ('averageFloat64x2Shuffle.js');
+//load ('inverseColumn-float64x2.js');
+
+load ('simdFloat32x4ToInt32x4.js');
+load ('simdFloat32x4ToFloat64x2.js');
+load ('simdFloat32x4BitsToInt32x4.js');
+load ('simdFloat32x4BitsToFloat64x2.js');
+//load ('simdFloat64x2ToFloat32x4.js');
+//load ('simdFloat32x4ToFloat64x2.js');
+//load ('simdFloat32x4BitsToInt32x4.js');
 
 function printResult (str) {
   print (str);
